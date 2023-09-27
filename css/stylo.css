@@ -1,0 +1,155 @@
+body{
+    font-family: arial, Arial, Helvetica, sans-serif;
+    
+    
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    padding: 1vw 0vw 1vw;
+    border: 0vw rgb(rgb(255, 255, 255), green, blue);
+    box-shadow: 0 1vw 9vw 1vw rgba(0,0,0,.1);
+}
+
+    .logo img{
+        width: 10vw;
+        display: block;
+      
+    
+}
+
+.navegacao{
+    overflow: hidden;
+}
+
+.navegacao a{
+    float:center;
+    display: flex;
+    color: #000000;
+    padding: 1vw 16vw;
+    text-decoration: none;
+    text-align: center;
+    width: 10vw;
+    font-family: Gotham-Medium,sans-serif;
+}
+
+
+.navegacao a:hover{
+    color: #fbff00;
+
+}
+.navegacao ul{
+    list-style: none;
+    display: flex;
+}
+
+
+img{
+    width: 100%;
+    margin: 1vw 6vw;
+    max-width: 95vw;
+    height: 100%;
+    max-height: 40vw;
+
+}
+.publi{
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    border-radius: 25px;
+    max-width: 100vw;
+    margin: 0vw -2vw;
+}
+
+.encontre{
+    text-align: center;
+}
+
+.encontre span{
+    color: yellow;
+
+}
+ 
+.localizacao{
+    background-image: url(https://scontent.fcfc2-1.fna.fbcdn.net/v/t39.30808-6/297417060_2288557207977163_195001879745279691_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=bcc5cc&_nc_eui2=AeGApwtWaCQpQUTR_0Z60EZrXzk_fjfGIadfOT9-N8Yhp2Rcmv1ffxwNfU8gUWJZ-n8iPB-V8hPD2uSsn0x2GFWu&_nc_ohc=PQM5lmMsXwMAX9U-bTn&_nc_ht=scontent.fcfc2-1.fna&oh=00_AfDfa7GpJIZFpRTiMPiHhMFgWhicB9e78l4O8tG1eMdLaQ&oe=65177533);
+    padding: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 87vw;
+    height: 50vw;
+    border-radius: 4vw;
+    background-color: transparent;
+    background-position: 0vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3vw;
+}
+
+.escolher{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 20vw;
+    padding: 1vw 2vw 1vw 11vw;
+    background: #fff;
+    border-radius: 46vw;
+    font-family: Gotham-Medium,sans-serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+    
+}
+.venha{
+    text-align: center;
+
+}
+.venha span{
+    color: yellow;
+
+}
+.planos{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1vw 2vw;
+    padding: 0;
+    list-style: none;
+
+}
+
+.comecar_agora{
+    text-align: center;
+}
+.comecar{
+    text-align: center;
+    border-radius: 5vw;
+    background-color: yellow;
+    padding: 1vw 4vw;
+    text-decoration: none;
+    color: #000000;
+    margin: 5vw;
+}
+.comecar:hover{
+    background-color: #000000;
+    color: #fbff00;
+}
+.rodape{
+    background-color: #000000;
+}
+
+.logo_rodape{
+max-width: 12vw;
+margin: 1vw 5vw;
+
+}
+.p_rodape{
+    border-top: #999 solid 1px;
+
+}
